@@ -1,0 +1,19 @@
+.social-link{
+  width:40px;
+  height: 40px;
+  border: 1px solid #e8ecee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 5px;
+  a{
+    i{
+      color: $first-link-color;
+    }
+  }
+}
+
+.social-link:hover{
+  background: #e84545;
+}
